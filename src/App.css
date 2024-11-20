@@ -1,0 +1,64 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.chart__wrapper{
+  display: flex;
+  flex-direction: column ;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--opisanie---dannye-2);
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25), 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+
+  min-width: 591px;
+  min-height: 534px;
+
+  padding: 15px;
+  position: relative;
+}
+
+.container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100%; 
+}
+.chart__title{
+  font-weight: 500;
+font-size: 16px;
+
+/* line-height: 21px; */ 
+line-height: 131%;
+letter-spacing: 0.01em;
+color: var(--opisanie---dannye);
+}
+
+.chart__subtitle__wrapper{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  width: 400px;
+}
+
+.chart__subtitle__container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px; 
+  width: 100%;
+}
+
+
+.chart__subtitle{
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 10px;
+  color: var(--opisanie---dannye);
+}
+
